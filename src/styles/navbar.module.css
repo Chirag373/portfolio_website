@@ -1,0 +1,27 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem 2rem 2rem;
+    border-bottom: 1px solid rgba(60, 64, 67, 0.3);
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.mainContainer h1 {
+    color: #034694;
+}
+
+.mainContainer div ul {
+    display: flex;
+    list-style: none;
+    column-gap: 3rem;
+    color: #034694;
+}
+
+.mainContainer div ul li {
+    font-weight: 600;
+    cursor: pointer;
+}
